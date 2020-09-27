@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta charset ="uft-8">
+
 </head>
 <h1>计算机图形学-赵婷</h1>
 <h2>实验</h2>
