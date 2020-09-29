@@ -19,6 +19,9 @@
       <td>
         <a href="demol/chap.b.demol.html"> lab_1_b</a>
       </td>
+      <td>
+        <a href="demol/lab-1-.html"> lab_1_c_to_e</a>
+      </td>
     </tr>
   </table>
 </h4>
