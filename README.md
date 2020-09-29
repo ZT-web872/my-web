@@ -11,13 +11,13 @@
   <table>
     <tr>
     <td>
-      <a href="../demol/chap1-demol.html"> lab_1_0</a>
+      <a href="demol/chap1-demol.html"> lab_1_0</a>
       </td>
       <td>
-        <a href="../demol/chap.a.demol.html"> lab_1_a</a>
+        <a href="demol/chap.a.demol.html"> lab_1_a</a>
       </td>
       <td>
-        <a href="../demol/chap.b.demol.html"> lab_1_b</a>
+        <a href="demol/chap.b.demol.html"> lab_1_b</a>
       </td>
     </tr>
   </table>
