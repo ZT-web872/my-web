@@ -24,10 +24,10 @@
         <a href="demol/chap.b.demol.html"> lab_1_b</a>
       </td>
       <td>
-        <a href="demol/chap.c.demol.html"> lab_1_c</a>
+        <a href="chap.c.demol.html"> lab_1_c</a>
       </td>
       <td>
-        <a href="demol/chap.d.demol.html"> lab_1_d</a>
+        <a href="chap.d.demol.html"> lab_1_d</a>
       </td>
       <td>
         <a href="lab-1-.html"> lab_1_e</a>
