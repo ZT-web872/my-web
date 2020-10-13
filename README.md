@@ -28,6 +28,7 @@
       </td>
       <td>
         <a href="demol/chap.d.demol.html"> lab_1_d</a>
+        <p>不会平滑着色</p>
       </td>
       <td>
         <a href="lab-1-.html"> lab_1_e</a>
