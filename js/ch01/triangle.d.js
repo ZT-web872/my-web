@@ -1,5 +1,5 @@
 
-		"use strict";
+				"use strict";
 		
 		var gl;
 		var points;
@@ -13,32 +13,17 @@
 		
 			// Three Vertices
 			var vertices = [
-			0.5,  0.0,
-			0.5,  0.5,
-			-0.5,  0.5,
-			
-			0.5,  0.0,
-			-0.5,  0.5,
-			-0.5,  0.0,
-			
-			0.5,  0.0,
-			0.5,  -0.5,
-			1.0,  -0.5,
-			
-			];
-			
-			var colors = [
-				0.0,1.0, 1.0, 1.0 ,
-				0.0,1.0, 1.0, 1.0 ,
-				0.0,1.0, 1.0, 1.0 ,
-				0.0,1.0, 1.0, 1.0 ,
-				0.0,1.0, 1.0, 1.0 ,
-				0.0,1.0, 1.0, 1.0 ,
-				1.0,0.0, 1.0, 1.0 ,
-				1.0,0.0, 1.0, 1.0 ,
-				1.0,0.0, 1.0, 1.0 
+				0.5,  0.0,
+				0.5,  0.5,
+				-0.5,  0.5,
+				-0.5,  0.0,
+				0.5,  0.0,
+				0.5,  -0.5,
+				1.0,  -0.5,
 				
+		
 			];
+		
 			// Configure WebGL
 			gl.viewport( 0, 0, canvas.width, canvas.height );
 			gl.clearColor( 1.0, 1.0, 1.0, 1.0 );
@@ -56,22 +41,13 @@
 			var vPosition = gl.getAttribLocation( program, "vPosition" );
 			gl.vertexAttribPointer( vPosition, 2, gl.FLOAT, false, 0, 0 );
 			gl.enableVertexAttribArray( vPosition );
-			
-			var cBuffer = gl.createBuffer();
-			gl.bindBuffer( gl.ARRAY_BUFFER,cBuffer );
-			gl.bufferData( gl.ARRAY_BUFFER, new Float32Array( colors ), gl.STATIC_DRAW );
-			
-			var vColor = gl.getAttribLocation( program, "vColor" );
-			gl.vertexAttribPointer( vColor, 4, gl.FLOAT, false, 0, 0 );
-			gl.enableVertexAttribArray( vColor );
-			
+		
 			render();
 		}
 		
 		function render(){
 			gl.clear( gl.COLOR_BUFFER_BIT );
-			gl.drawArrays( gl.TRIANGLE_FAN, 0, 9);
+			gl.drawArrays( gl.TRIANGLE_FAN, 0, 7);
 			//gl.drawArrays( gl.TRIANGLES, 0, 9);
 			//gl.drawArrays( gl.TRIANGLE_FANS, 3, 6 );
 		}
-		
