@@ -32,4 +32,23 @@
     </tr>
   </table>
 </h4>
+<h4>实验-2
+  <table>
+    <tr>
+    
+      <td>
+        <a href="demol/chap.02.a.html"> lab_2_a</a>
+      </td>
+      <td>
+        <a href="demol/chap.02.b.html"> lab_2_b</a>
+      </td>
+       <td>
+        <a href="demol/chap.02.c.html"> lab_2_c</a>
+      </td>
+      <td>
+        <a href="demol/chap.02.d.html"> lab_2_d</a>
+      </td>
+    </tr>
+  </table>
+</h4>
 </html>
