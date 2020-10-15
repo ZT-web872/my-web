@@ -35,7 +35,6 @@
 <h4>实验-2
   <table>
     <tr>
-    
       <td>
         <a href="demol/chap.02.a.html"> lab_2_a</a>
       </td>
