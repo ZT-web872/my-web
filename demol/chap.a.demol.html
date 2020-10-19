@@ -13,7 +13,7 @@
 		<script id="fragment-shader" type="x-shader/x-fragment">
 			precision mediump float;
 			void main(){
-				gl_FragColor = vec4( 1.0,0.0, 1.0, 1.0 );
+				gl_FragColor = vec4( 0.0, 0.0, 1.0, 1.0 );
 			}
 		</script>
 		<!-- 一组相关的JS库 -->
@@ -21,10 +21,9 @@
 		<script type="text/javascript" src="../js/common/initShaders.js"></script>
 		<script type="text/javascript" src="../js/common/gl-matrix-min.js"></script>
 		<!-- 绘制三角形的JS代码 -->
-		<script type="text/javascript" src="../js/ch01/triangle.c.js"></script>
+		<script type="text/javascript" src="../js/ch01/triangle.js"></script>
 	</head>
 	<body>
 		<canvas id="triangle-canvas" style="border:none;" width="500" height="500"></canvas>
 	</body>
 </html>
-
