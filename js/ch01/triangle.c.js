@@ -12,23 +12,15 @@ window.onload = function init(){
 
 	// Three Vertices
 	var vertices = [
+		0.5,  0.0,
+		0.5,  0.5,
+		-0.5,  0.5,
 		-0.5,  0.0,
-		-0.5, 0.5, 
-		 0.5,  0.5, 
-		0.5,0.0,
-		- 0.5,0.0, 
-		0.0,-0.5,
-		-0.5,-0.5,
+		0.5,  0.0,
+		0.5,  -0.5,
+		1.0,  -0.5,
 		
-		 /*0.0, -1.0,
-		 1.0, -1.0,
-		 1.0,  1.0,
-		 0.0, -1.0,
-		 1.0,  1.0,
-		 0.0,  1.0*/
-		 /*-0.5, -0.5,
-		 0.0, 0.5,
-		 0.5, -0.5*/
+
 	];
 
 	// Configure WebGL
@@ -54,7 +46,7 @@ window.onload = function init(){
 
 function render(){
 	gl.clear( gl.COLOR_BUFFER_BIT );
-	gl.drawArrays( gl.TRIANGLE_FAN, 0, 7 );
+	gl.drawArrays( gl.TRIANGLE_FAN, 0, 7);
 	//gl.drawArrays( gl.TRIANGLES, 0, 9);
 	//gl.drawArrays( gl.TRIANGLE_FANS, 3, 6 );
 }
