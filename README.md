@@ -53,4 +53,12 @@
     </tr>
   </table>
 </h4>
+<h4>实验-3
+  <table>
+    <tr>
+      <td><a href="demol/chap.3.a.html">lab-3-a </a></td>
+      <td><a href="demol/chap.3.b.html">lab-3-b</a></td>
+    </tr>
+  </table>
+</h4>
 </html>
