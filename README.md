@@ -61,4 +61,12 @@
     </tr>
   </table>
 </h4>
+<h4>实验-3
+  <table>
+    <tr>
+      <td><a href="demol/chap.04.a+b+c.html">lab-4-a+b+c </a></td>
+      <td><a href="demol/chap.04.d.html">lab-4-d</a></td>
+    </tr>
+  </table>
+</h4>
 </html>
