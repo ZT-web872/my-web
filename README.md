@@ -77,4 +77,12 @@
     </tr>
   </table>
 </h4>
+<h4>课程设计
+  <table>
+    <tr>
+      <td><a href="课程设计/课程设计.html">课程设计 </a></td>
+      <td><a href="webgl系统说明书.pdf">系统说明书</a></td>
+    </tr>
+  </table>
+</h4>
 </html>
